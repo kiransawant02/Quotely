@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/drawable/ic_gradient_24.xml" value="0.1045" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_connect_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_developer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_edit.xml" value="0.22" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_favourite_shayari.xml" value="0.1" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_feedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_reset_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_submit_quotes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_submit_shayari.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_topic_quotes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/activity_topic_shayari.xml" value="0.25" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/app_bar_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/fav_recycler_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/layout/navigation_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/admin/OneDrive/Desktop/TYCS/Sem6/Quotely/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

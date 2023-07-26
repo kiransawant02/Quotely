@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    tools:context=".TopicShayariActivity" >
+
+    <include
+        android:id="@+id/topic_shayari_app_bar"
+        layout="@layout/app_bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></include>
+
+
+    <RelativeLayout
+        android:id="@+id/topic_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topic_shayari_app_bar">
+0
+        <ImageView
+            android:id="@+id/topic_shayari_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="3dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/dosti" />
+
+        <TextView
+            android:id="@+id/topic_shayari_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:shadowColor="@color/colorPrimaryText"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="10"
+            android:text="एक उमर बीत चली है तुझे चाहते हुए, \nतू आज भी बेखबर है कल की तरह।"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLitePrimary"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/topic_relative_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topic_relative_layout">
+
+        <Button
+            android:id="@+id/topic_shayari_prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="Prev"
+            android:drawableStart="@drawable/ic_previous_24"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/topic_shayari_copy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableStart="@drawable/ic_copy_24dp"
+            android:drawableTint="#FFFFFF"
+            android:text="COPY"
+            android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/topic_shayari_more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableStart="@drawable/ic_edit_24"
+            android:drawableTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="Edit"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/topic_shayari_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="NEXT"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLitePrimary"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableStart="@drawable/ic_baseline_play_circle_24"
+            android:text="SAVE"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/topic_shayari_fav_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableStart="@drawable/ic_favorite_border_24"
+            android:drawableTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="ADD TO FAV"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/topic_shayari_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/text_color"
+            android:drawableStart="@drawable/ic_baseline_share_24"
+            android:text="SHARE"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
